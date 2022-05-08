@@ -21,28 +21,28 @@
   <title>Joecase</title>
 </head>
 
-<body class="bg-dark">
+<body class="scroll bg-dark">
   <div class="container-fluid">
     <nav class="navbar navbar-expand-md bg-dark navbar-dark animate__animated animate__fadeIn">
       <div class="container-fluid">
-        <a href="index.html" class="text-danger lead navbar-brand">Joecase</a>
-        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
+        <a role="button" href="index.html" class="text-danger lead navbar-brand">Joecase</a>
+        <button type="button"  class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div id="MenuNavegacion" class="collapse navbar-collapse">
           <ul class="navbar-nav ms-3">
-            <li class="nav-item"><a class="nav-link" href="promociones.html">Promociones</a></li>
-            <li class="nav-item"><a class="nav-link" href="candy.html">Candy</a></li>
-            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+            <li class="nav-item"><a role="button" class="nav-link" href="promociones.html">Promociones</a></li>
+            <li class="nav-item"><a role="button" class="nav-link" href="candy.html">Candy</a></li>
+            <li class="nav-item"><a role="button" class="nav-link" href="contacto.html">Contacto</a></li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Sucursales
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="sucursales.html#temperley">Temperley</a></li>
-                <li><a class="dropdown-item" href="sucursales.html#banfield">Banfield</a></li>
-                <li><a class="dropdown-item" href="sucursales.html#lanus">Lanús</a></li>
-                <li><a class="dropdown-item" href="sucursales.html#avellaneda">Avellaneda</a></li>
-                <li><a class="dropdown-item" href="sucursales.html#barriochino">Barrio Chino</a></li>
+                <li><a role="button" class="dropdown-item" href="sucursales.html#temperley">Temperley</a></li>
+                <li><a role="button" class="dropdown-item" href="sucursales.html#banfield">Banfield</a></li>
+                <li><a role="button" class="dropdown-item" href="sucursales.html#lanus">Lanús</a></li>
+                <li><a role="button" class="dropdown-item" href="sucursales.html#avellaneda">Avellaneda</a></li>
+                <li><a role="button" class="dropdown-item" href="sucursales.html#barriochino">Barrio Chino</a></li>
               </ul>
             </li>
           </ul>
@@ -55,28 +55,31 @@
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000"
   data-bs-pause="false">
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="img/indexslider6.jpg" class="d-block w-100" alt="Niña espectadora">
+      <div class="carousel-item active" >
+        <img src="img/indexslider6.jpg" style="min-height: 480px; object-fit: cover; object-position: 65%;" class="d-block w-100" alt="Niña espectadora">
       </div>
 <!--       <div class="carousel-item">
         <img src="img/indexslider5.jpg" class="d-block w-100"  alt="Butacas de cine">
       </div> -->
       <div class="carousel-item">
-          <img src="img/indexslider7.jpg" class="d-block w-100"  alt="Butacas de cine">
-          <div class="carousel-caption d-none d-md-block">
-            <p class="text-white fw-bold fs-1">CONOCÉ NUESTRAS PROMOCIONES</p> <a class="nav-link" href="promociones.html"><button  id="botonPromo">Hacé click acá</button></a>
+          <img src="img/indexslider7.jpg"  style="min-height: 480px;  object-fit: cover; object-position: 65%;" class="d-block w-100"  alt="Butacas de cine">
+          <div class="carousel-caption d-md-block">
+            <p class="text-white fw-bold fs-1">CONOCÉ NUESTRAS PROMOCIONES</p> <a role="button" class="nav-link" href="promociones.html"><button class="d-none" id="botonPromo">Hacé click acá</button></a>
           </div>
       </div>
       <div class="carousel-item">
-        <img src="img/indexslider8.jpg" class="d-block w-100" alt="Pulp fiction venta de entradas">
-        <div class="carousel-caption d-none d-md-block">
-          <p class="text-white fw-bold fs-1">RESERVÁ TUS ENTRADAS</p> <a class="nav-link" href="peli13.html"><button  id="botonPulp">Hacé click acá</button></a>
+        <a role="button" class="d-block w-100" class="nav-link" href="peli13.html" target="_blank"> 
+          <img  src="img/indexslider8.jpg" alt="Pulp fiction venta de entradas"></a>
+        <div class="carousel-caption d-md-block">
+          <p class="text-white fw-bold fs-1"></p> <a role="button" class="nav-link" href="peli13.html"><button class=" fw-bold fs-3"  id="botonPulp">RESERVÁ TUS ENTRADAS</button></a>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="img/indexslider3.jpg" class="d-block w-100"  alt="Promociones">
-        <div class="carousel-caption d-none d-md-block">
-          <p class="text-white fw-bold fs-1">MIRÁ NUESTRO MENÚ</p> <a class="nav-link" href="candy.html"><button  id="botonPromo">Hacé click acá</button></a>
+        <a role="button" class="d-block w-100" class="nav-link" style="object-fit: cover; object-position: 100% 0; text-decoration: none;" href="candy.html" target="_blank"> 
+        <img src="img/indexslider3.jpg" alt="Menú">
+        <div class="carousel-caption d-md-block">
+          <p class="text-white fw-bold fs-1">MIRÁ NUESTRO MENÚ</p>
+        </a>
         </div>
       </div>
     </div>
@@ -97,7 +100,7 @@
     <h1 id="carteleraTitulo" class="text-center"> Cartelera de películas</h1>
 
     <div class="row">
-      <div class="col-lg-3 col-md-4 col-sm-6 ">
+      <div class="col-lg-3 col-md-4 col-sm-6">
         <div class="image">
           <img class="image__img"   src="img/peli1.jpg" alt="Poster de Juegos, trampas y dos armas humeantes">
           <div  class="image__overlay ">
@@ -120,6 +123,7 @@
           </div>
       </div>
       </div>
+      
       <div class="col-lg-3 col-md-4 col-sm-6"> 
         <div class="image">
           <img class="image__img" src="img/peli3.jpg" alt="Poster de Licorice Pizza">
@@ -292,19 +296,19 @@
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
           <h5 class="text-uppercase mb-4 font-weight-bold text-danger">Sucursales</h5>
           <p>
-            <a href="sucursales.html#temperley" class="text-white" style="text-decoration: none;">Temperley</a>
+            <a role="button" href="sucursales.html#temperley" class="text-white" style="text-decoration: none;">Temperley</a>
           </p>
           <p>
-            <a href="sucursales.html#banfield" class="text-white" style="text-decoration: none;">Banfield</a>
+            <a role="button" href="sucursales.html#banfield" class="text-white" style="text-decoration: none;">Banfield</a>
           </p>
           <p>
-            <a href="sucursales.html#lanus" class="text-white" style="text-decoration: none;">Lanús</a>
+            <a role="button" href="sucursales.html#lanus" class="text-white" style="text-decoration: none;">Lanús</a>
           </p>
           <p>
-            <a href="sucursales.html#avellaneda" class="text-white" style="text-decoration: none;">Avellaneda</a>
+            <a role="button" href="sucursales.html#avellaneda" class="text-white" style="text-decoration: none;">Avellaneda</a>
           </p>
           <p>
-            <a href="sucursales.html#barriochino" class="text-white" style="text-decoration: none;">Bario Chino</a>
+            <a role="button" href="sucursales.html#barriochino" class="text-white" style="text-decoration: none;">Bario Chino</a>
           </p>
         </div>
 
@@ -355,15 +359,15 @@
           <div class="text-center text-md-right">
             <ul class="list-unstyled list-inline">
               <li class="list-inline-item">
-                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                <a role="button" href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
                     class="fab fa-facebook"></i></a>
               </li>
               <li class="list-inline-item">
-                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                <a role="button" href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
                     class="fab fa-twitter"></i></a>
               </li>
               <li class="list-inline-item">
-                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                <a role="button" href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
                     class="fab fa-instagram"></i></a>
               </li>
               <li class="list-inline-item">
