@@ -53,35 +53,36 @@
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img id="banner" src="img/contacto.jpg" class="d-block w-100" alt="entrega de carta en buzón">
-        <div class="carousel-caption d-md-block">
+        <img src="img/contacto.jpg" style="min-height: 480px; object-fit: cover; object-position: 25%;"
+          class="d-block w-100" alt="entrega de carta en buzón">
+      </div>
+        <div class="carousel-caption d-md-block ">
           <h1>CONTACTO</h1>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container mt-5">
-
-    <form class="col-md-6 mx-auto">
+  <div class="container mt-4">
+    <form class="col-md-8 mx-auto">
       <div class="form-group text-white col-md-8 mx-auto">
         <label for="exampleFormControlInput1">Correo Electrónico</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Escriba su email.">
+        <input type="email" class="form-control fs-5" id="exampleFormControlInput1" placeholder="Escriba su email.">
       </div>
       <div class="form-group text-white col-md-8 mx-auto">
         <label for="exampleFormControlInput1">Nombre</label>
-        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Escriba su nombre completo.">
+        <input type="name" class="form-control fs-5" id="exampleFormControlInput1" placeholder="Escriba su nombre completo.">
       </div>
 
       <div class="form-group text-white col-md-8 mx-auto">
         <label for="exampleFormControlInput1">Teléfono</label>
-        <input inputmode="numeric" class="form-control" id="exampleFormControlInput1"
+        <input inputmode="numeric" class="form-control fs-5" id="exampleFormControlInput1"
           placeholder="Escriba su número de celular.">
       </div>
 
       <div class=" text-white form-group col-md-8 mx-auto">
         <label for="exampleFormControlSelect1">Motivo</label>
-        <select class="form-control" id="exampleFormControlSelect1">
+        <select class="form-control fs-5" id="exampleFormControlSelect1">
           <option>Consulta</option>
           <option>Reclamo</option>
           <option>Sugerencia</option>
@@ -94,10 +95,11 @@
 
       <div class="form-group text-white col-md-8 mx-auto">
         <label for="exampleFormControl1"></label>
-        <textarea type="name" class="form-control" id="exampleFormControlInput1"
-          placeholder="Escriba su mensaje."></textarea>
+        <textarea type="name" class="form-control fs-5" id="exampleFormControlInput1"
+          placeholder="Escriba su mensaje."></textarea> 
       </div>
-
+      <div class="col-md-8 mx-auto mt-3"><button type="submit" class="btn btn-outline-danger w-100 mb-3 fs-4">Enviar</button></div>
+      
 
     </form>
   </div>
