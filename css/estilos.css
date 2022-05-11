@@ -1,16 +1,21 @@
 /* Colores */
 /* Paleta de colores */
-#candyBordo {
-  color: #8f1010 !important; }
+.candyBordo {
+  color: #8f1010 ;
+  font-weight: 500;
+}
 
-#candyBordo {
-  color: #8f1010 !important; }
+.bordo {
+  border-color: #8f1010;
+}
 
-/* Colores */
-/* Paleta de colores */
-#candyBordo {
-  color: #8f1010 !important; }
+.bordo:hover {
+  background-color: #8f1010 ;
+  border-color: #8f1010;
+  transition-delay:0.15s;
+}
 
+/* CARTELERA */
 .image {
   position: relative;
   width: 100%;
@@ -72,31 +77,26 @@
 
 #carteleraTitulo {
   padding-top: 15px; }
+/* FIN DE CARTELERA */
 
+/* CONTACTO */
 textarea {
   resize: none; }
 
+/* FOOTER */
 #footer {
-  background-color: #000 !important; }
+  background-color: #000; }
 
 footer {
-  margin-top: 100px; }
+  margin-top: 180px;
+}
 
-#footer-youtube {
-  color: #FF0000; }
+/* FIN DE FOOTER */
 
-#footer-twitter {
-  color: #1DA1F2; }
+#banner /* de promociones */ {
+  padding-bottom: 25px; } 
 
-#footer-instagram {
-  color: #E1306C; }
-
-#footer-facebook {
-  color: #4267B2; }
-
-#banner {
-  padding-bottom: 25px; }
-
+/* generales */
 h1 {
   font-family: "Montserrat", sans-serif;
   color: #fff;
@@ -112,11 +112,7 @@ nav {
   position: sticky;
   top: 0; }
 
-/* Colores */
-/* Paleta de colores */
-#candyBordo {
-  color: #8f1010 !important; }
-
+/* peliculas individuales */
 #sinopsis {
   font-family: "Montserrat", sans-serif;
   color: #ccc !important;
@@ -130,11 +126,7 @@ nav {
 #trailer {
   padding-bottom: 40px; }
 
-/* Colores */
-/* Paleta de colores */
-#candyBordo {
-  color: #8f1010 !important; }
-
+/* sucursales grid*/
 .sucursales-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -154,32 +146,9 @@ nav {
   .sucursales-item img {
     max-width: 620px; }
 
-.sucursales-item-chinese {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 36px;
-  color: #edf0f1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 16px; }
-  .sucursales-item-chinese img {
-    max-width: 620px;
-    padding-top: 20px; }
-
+/* se mueve al mapa debajo  */
 @media screen and (max-width: 1108px) {
-  body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box; }
-  html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box; }
+
   .sucursales-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -189,51 +158,13 @@ nav {
     grid-gap: 10px;
     border: #fff;
     border-width: 3px; }
-  .sucursales-item {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 26px;
-    color: #edf0f1;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-    .sucursales-item img {
-      max-width: 500px;
-      width: auto; }
-  .sucursales-item-chinese img {
-    max-width: 500px;
-    width: auto;
-    padding-top: 20px; } }
-
+  }
+/* Se oculta el mapa en pantallas pequeñas */
 @media only screen and (max-width: 575px) {
   #mapita {
     display: none; }
-  .sucursales-item img {
-    max-width: 250px;
-    width: auto; }
-  .sucursales-item-chinese img {
-    max-width: 250px;
-    width: auto;
-    padding-top: 20px; } }
-
-/* Colores */
-/* Paleta de colores */
-#candyBordo {
-  color: #8f1010 !important; }
-
-  #botonPromo 
-{
-    text-decoration: none;
-    cursor: pointer;
-    display: inline-block;
-    border: 0;
-    padding: 0.75rem 1.5rem;
-    border-radius: 20px;
-    background-color: #8f1010;
-    color: #fff;
-    margin-left: 5px;
-}
-
+  }
+/* botones del slider de pulp fiction en index */
 #botonPulp
 {
     text-decoration: none;
@@ -247,15 +178,6 @@ nav {
     color: #F45D8C;
     margin-left: 5px;
 }
-
-#botonPulpImg
-{
-  padding: 0;
-  border: 0;
-  text-decoration: none;
-  cursor: pointer;
-  width: 100%;
-} 
 
 /* SCROLLBAR */
 
@@ -275,4 +197,3 @@ nav {
   border: 0.25em solid #8f1010;
   border-radius: 100vw;
 }
-
